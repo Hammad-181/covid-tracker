@@ -1,7 +1,7 @@
 <template>
-      <div class="grid md:grid-cols-2 gap-4">
+      <div class="grid md:grid-cols-2 gap-3">
           <!-- Box-1 -->
-        <div class="shadow-md bg-blue-100 p-10 text-center rounded">
+        <div class="shadow-md bg-blue-100 p-10 text-center rounded hover:bg-blue-200">
             <h3 class="text-3xl tex-blue-900 font-bold mb-2">
                 Cases
             </h3>
@@ -15,7 +15,7 @@
             </div>
         </div>
         <!-- Box-2 -->
-        <div class="shadow-md bg-blue-200 p-10 text-center rounded">
+        <div class="shadow-md bg-blue-200 p-10 text-center rounded hover:bg-blue-300">
             <h3 class="text-3xl tex-blue-900 font-bold mb-2">
                 Deaths
             </h3>
@@ -35,5 +35,6 @@
 export default {
     name: "DataBoxes",
     props : ["stats"],
+    
 }
 </script>

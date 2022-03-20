@@ -42,9 +42,8 @@ export default {
    async fetchCoviddata(){
       const res = await fetch('https://api.covid19api.com/summary');
       const data = await res.json();
-      console.log(data);
-      
-      return data;
+ 
+       return data;
     },
     getCountry(country){
       this.stats = country;
